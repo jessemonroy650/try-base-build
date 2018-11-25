@@ -1,5 +1,6 @@
 # try-base-build
 try the simplest build
 
-Date: 2016-03-15T19:25:02
+Date: 2018-11-25
 
+This app has no javascript, no images, no plugins - nothing. If this does not work, you are having real problems.

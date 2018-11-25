@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<widget
-  xmlns="http://www.w3.org/ns/widgets"
-  xmlns:gap="http://phonegap.com/ns/1.0"
-  id="com.phonegapscam.simpleapp"
-  version="1.1.0">
-  <name>SIMPLE APP</name>
-  <description>SIMPLE APP</description>
-  <author href="http://phonegapscam.com" email="support@phonegapscam.com">phonegapscam</author>
-  <content src="index.html"/>
-  <preference name="permissions" value="none"/>
-</widget>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.bsdmasterindex.try-base-build"
+        version     = "1.0.0"
+        versionCode = "10" >
+
+        <name>try base build</name>
+        <description>try base build</description>
+        <author href="http://bsdmasterindex.com" email="jessemonroy650@yahoo.com">Jesse Monroy</author>
+
+        <preference name="phonegap-version" value="cli-8.1.1" />
+
+        <platform name="android" />
+    </widget>
