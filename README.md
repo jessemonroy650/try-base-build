@@ -1,5 +1,5 @@
 # try-base-build
-try the simplest build
+The simplest *Phonegap Build* i could think of.
 
 Date: 2018-11-25
 
@@ -10,5 +10,5 @@ It also has on "alert()" attached to the button.
 If this does not work, you are having real problems.
 
 When Cordova/Phonegap loads one line will change.
-FROM: Cordova/Phonegap is **NOT** loaded.
-TO:  Cordova/Phonegap is loaded.
+> FROM: Cordova/Phonegap is **NOT** loaded.
+> TO:  Cordova/Phonegap is loaded.
