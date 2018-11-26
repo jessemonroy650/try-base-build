@@ -11,4 +11,5 @@ If this does not work, you are having real problems.
 
 When Cordova/Phonegap loads one line will change.
 > FROM: Cordova/Phonegap is **NOT** loaded.
+
 > TO:  Cordova/Phonegap is loaded.
