@@ -1,21 +1,29 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <meta http-equiv=content-type content="text/html; charset=utf8">
-    <title>Treps</title>
-    <!-- HTML5 start -->
-    <meta name="viewport" content="width=device-width" />
+  <meta http-equiv=content-type content="text/html; charset=utf8">
+  <title>Try Base Build</title>
+  <meta name="viewport" content="width=device-width" />
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" >
+    function onDeviceReady () { document.getElementById('change').innerHTML = '';  };
+    document.addEventListener('deviceready', onDeviceReady);
+  </script>
+
 </head>
 <body>
+<h2>Try Base Build</h2>
 
-<h2>Base Build</h2>
-<h4>with <i>Phonegap Build</i></h4>
-<p>
-This app has no javascript, no images, no plugins - nothing. If this does not work, you are having real problems.
-</p>
+<button onclick="alert('This works.');">with <i>Phonegap Build</i></button>
 
-<div id="footer">
-    <span id=copyright class=copyright>Copyright 2016 by Jesse Monroy, Jr.</span>
-</div>
+<p>Cordova/Phonegap is <span id=change><b>NOT</b></span> loaded.</p>
+
+<p>This app has no css, no images, no plugins, and two (2) lines of javascript.</p>
+
+<p>It has on "alert()" attached to the button.</p>
+
+<p>If this does not work, you are having real problems.</p>
+
+<div>Copyright 2016 by Jesse Monroy, Jr.</div>
 </body>
 </html>
